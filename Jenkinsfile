@@ -12,9 +12,9 @@ pipeline{
         string(name: 'DockerHubUser', description: "name of the Application", defaultValue: 'vikashashoke')
     }
     
-    // tools {
-    //     maven 'maven' // Specify the name of the configured Maven tool in Jenkins
-    // }
+    tools {
+        maven 'maven' // Specify the name of the configured Maven tool in Jenkins
+    }
 
     stages{
          
